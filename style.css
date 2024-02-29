@@ -1,0 +1,53 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+/*
+	* {
+		border: 1px solid red;
+	}
+*/
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+#main-text {
+	display: flex;
+}
+
+/* #main-text div {
+	border: 2px solid red;
+} */
+
+/* article div {
+	border: 2px solid red;
+} */
+
+/* .column-1 {
+	border: 2px solid red
+} */
+
+h1,
+h2 {
+	font-family: sans-serif;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	justify-content: space-around;
+	text-align: center;
+}
+
+nav>ul>li {
+	border: 2px solid black;
+	padding: 5% 2%;
+}
+
+nav>ul>li:hover {
+	background-color: #bdbdbd;
+}
